@@ -5,6 +5,9 @@
 <title>養豬場</title>
 <link rel="stylesheet" type="text/css" href="css/csshake.min.css">
 <link type="text/css" href="css/csshake.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="css/modernizr.custom.53451.js"></script>
+
 
 
 <style type="text/css">
@@ -42,17 +45,41 @@ function AlertIt(){
 }
 </script>
 
+
+
 <table width="100%" height="100%" border="0">
   <tr>
     <td align="center" valign="middle">
-
-
-<p><a href="media.html">家豬三個月</a></p>
-<div class="shake shake-vertical">
-<a href="javascript:AlertIt();"><img src="images/PIG.png"></a> 
-</div> 
+    <div class="shake shake-vertical">
+<a href="javascript:AlertIt();">家豬三個月</a></div>
 </td>
 </tr>
 </table>
+<div class="container">
+<section id="dg-container" class="dg-container">
+				<div class="clr"></div>
+				<div class="dg-wrapper">
+                
+					<a href="#"><img src="images/PIG.png" alt="imagePIG"></a>
+					<a href="#"><img src="images/PIG2.png" alt="images/PIG2"></a>
+					<a href="#"><img src="images/PIG3.png" alt="images/PIG3"></a>
+				
+                </div>
+				<nav>	
+					<span class="dg-prev">&lt;</span>
+					<span class="dg-next">&gt;</span>
+				</nav>
+	  </section>
+        </div>
+        </div>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="css/jquery.gallery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#dg-container').gallery();
+			});
+			</script/>
+
 </body>
 </html>
